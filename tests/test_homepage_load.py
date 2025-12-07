@@ -4,7 +4,7 @@ from test_setup import get_driver
 def test_homepage_title():
     driver = get_driver()
     try:
-        driver.get("http://localhost:5173/")
+        driver.get("http://51.21.168.187:3000/")
         assert "Expense" in driver.title
     finally:
         driver.quit()

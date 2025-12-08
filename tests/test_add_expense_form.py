@@ -1,4 +1,4 @@
-# selenium-tests/tests/test_add_expense_form.py and check
+# selenium-tests/tests/test_add_expense_form.py and check again
 from test_setup import get_driver, login
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait

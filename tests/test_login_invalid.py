@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def test_invalid_login():
     driver = get_driver()
     try:
-        driver.get("http://65.2.6.242:3000/login")
+        driver.get("http://65.0.173.26:3000/login")
         wait = WebDriverWait(driver, 6)
         wait.until(EC.presence_of_element_located((By.ID, "email")))
 
